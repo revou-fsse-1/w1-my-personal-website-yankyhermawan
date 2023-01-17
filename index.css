@@ -46,12 +46,13 @@ body{
 #url_link_ig, #url_link_github, #url_link_linkedin{
     margin-right: 20px;
     height: auto;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 #url_link_ig:hover, #url_link_github:hover, #url_link_linkedin:hover, #about:hover{
     background-color: white;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     cursor: pointer;
 }
 #url_link{
@@ -96,12 +97,12 @@ th{
 
 .hide{
     opacity : 0;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 .show{
     opacity: 1;
-    transition-duration: 3s;
+    transition-duration: 1s;
 }
 
 #scroll_for_content, #back_to_top{
@@ -123,10 +124,11 @@ th{
 
 #footer{
     bottom: 0;
+    left:0;
     text-align: center;
     background-color: rgb(119, 119, 119);
-    padding: 10px;
-    margin : 0 10%;
+    width: 100%;
+    position:fixed;
 }
 
 #navBar{
