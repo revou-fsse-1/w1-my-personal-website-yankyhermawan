@@ -4,7 +4,7 @@ body{
 #education, #work_experience{
     width: 75%;
     text-align: center;
-    margin: 50px auto 0 auto;
+    margin: 20px auto 0 auto;
     background-color: white;
     border-color: #98bbc8;
     border-radius: 15px;
@@ -42,4 +42,31 @@ th,tr,td{
     background-color: rgb(119, 119, 119);
     width: 100%;
     position:fixed;
+}
+#topBar{
+    background-color: white;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+#navBar{
+    float: right;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+#about{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+#about:hover{
+    background-color: bisque;
+    transition-duration: 1s;
+}
+
+#about_me{
+    margin-top: 75px;
 }

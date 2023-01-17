@@ -1,9 +1,21 @@
-<html>
+<!DOCTYPE html>
+
+<html lang= "en">
     <head>
         <meta charset="UTF-8">
-        <link rel = "stylesheet" href = "about.css">
+        <meta name="description" content="Personal Website">
+        <title>Yanky Hermawan's About</title>
+        <link rel = "stylesheet" href = "index.css">
     </head>
     <body>
+        <div id = "topBar">
+            <div id = "navBar">
+                <div id = "about">
+                    <a href ="../index.html">Home</a>
+                </div>
+            </div>
+        </div>
+        
         <div id = "bio">
             <h1 id = "about_me">About Me</h1>
             <table id ="personal_info">
@@ -83,7 +95,11 @@
                 </tr>
             </table>
         </div>
+        <div id = "bg_color">
+            Select Your Favorite Background Color: 
+            <input type = "color" id = "background_color" oninput="bgcolor()" value = "#98bbc8">
+        </div>
     <div id = "footer">Copyright &copy; 2023 Yanky Hermawan</div>
     </body>
-    <script src = "about.js"></script>
+    <script src = "index.js"></script>
 </html>

@@ -53,7 +53,6 @@ body{
 #url_link_ig:hover, #url_link_github:hover, #url_link_linkedin:hover, #about:hover{
     background-color: white;
     transition-duration: 0.5s;
-    cursor: pointer;
 }
 #url_link{
     padding-left: 30px;
