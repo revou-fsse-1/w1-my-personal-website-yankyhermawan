@@ -1,5 +1,6 @@
 body{
-    background-color: #98bbc8;
+    opacity: 0;
+    transition-duration: 2s;
 }
 #education, #work_experience{
     width: 75%;
@@ -60,6 +61,7 @@ th,tr,td{
     display: inline-block;
     margin: 10px;
     padding: 10px;
+    font-size: 15pt;
 }
 
 #about:hover{
@@ -69,4 +71,41 @@ th,tr,td{
 
 #about_me{
     margin-top: 75px;
+}
+
+#box{
+    background-color: antiquewhite;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+#container{
+    margin-top: 20px;
+}
+
+#box_text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#box:hover{
+    cursor: pointer;
+}
+
+.m-fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 1000ms, opacity 1000ms;
+}
+
+#bg_color{
+    background-color: cadetblue;
+    width: fit-content;
+    padding: 5px;
 }

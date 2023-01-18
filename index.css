@@ -3,10 +3,12 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
+
 body{
     text-align: left;
     width: 100%;
-    background-color: rgb(15,23,42);
+    opacity: 0;
+    transition-duration: 1s;
 }
 #intro{
     font-size: 16pt;
@@ -104,17 +106,17 @@ th{
     transition-duration: 1s;
 }
 
-#scroll_for_content, #back_to_top{
+#back_to_top{
     color:white;
     font-size: 10pt;
     position:fixed;
     bottom: 25%;
-
-    right: 20;
+    right: 20px;
     text-align: center;
     background-color: mediumblue;
     padding: 10px;
     border-radius: 15px;
+    overflow: auto;
 }
 
 #back_to_top:hover{

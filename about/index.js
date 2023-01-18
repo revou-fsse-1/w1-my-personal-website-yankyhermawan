@@ -3,7 +3,7 @@ var window_width = window.innerWidth;
 var margin_left = (window_width-element_width)/2 + "px";
 document.getElementById("personal_info").style.marginLeft = margin_left;
 document.getElementById("about_me").style.marginLeft = margin_left;
-document.getElementById("bg_color").style.marginLeft = margin_left;
+document.getElementById("container").style.marginLeft = margin_left;
 
 
 function bgcolor(){
@@ -41,4 +41,15 @@ function padZero(str, len) {
     len = len || 2;
     var zeros = new Array(len).join('0');
     return (zeros + str).slice(-len);
+}
+
+window.onload = setTimeout(function(){
+    document.body.style.opacity = "1";
+    document.body.style.backgroundColor = "#98bbc8";
+},1000)
+
+function removeBox(){
+    var thing = document.getElementById("box");
+
+    thing.classList.toggle("m-fadeOut");
 }
