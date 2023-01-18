@@ -29,5 +29,4 @@ function gotoTop(){
 
 window.onload = setTimeout(function(){
     document.body.style.opacity = "1";
-    document.body.style.backgroundColor = "rgb(15,23,42)";
 },1000)

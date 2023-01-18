@@ -4,11 +4,18 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+#pict{
+    width: 200px;
+    height: 300px;
+}
 body{
     text-align: left;
     width: 100%;
     opacity: 0;
     transition-duration: 1s;
+    background-image: url("image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #intro{
     font-size: 16pt;
