@@ -95,10 +95,6 @@ th,tr,td{
     font-size: 14pt;
 }
 
-#box:hover{
-    cursor: pointer;
-}
-
 .m-fadeOut {
     visibility: hidden;
     opacity: 0;
