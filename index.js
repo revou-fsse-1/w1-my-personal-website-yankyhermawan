@@ -32,3 +32,9 @@ function gotoTop() {
 window.onload = setTimeout(function () {
 	document.body.style.opacity = "1";
 }, 1000);
+
+function greetings(){
+    alert("Hello Guys!!");
+}
+
+window.onload = greetings();
