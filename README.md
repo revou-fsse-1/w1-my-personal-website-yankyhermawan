@@ -10,6 +10,5 @@ About
 
 ## URL
 <hr>
-Github: [Click Here]()
 
-Netlify: 
+Netlify: [Click Here!](https://monumental-crepe-1977fa.netlify.app/)
