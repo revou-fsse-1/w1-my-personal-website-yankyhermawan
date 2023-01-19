@@ -7,3 +7,9 @@ Simple Personal Website of Yanky Hermawan with HTML, CSS, and JavaScript
 Home
 
 About
+
+## URL
+<hr>
+Github: [Click Here]()
+
+Netlify: 
